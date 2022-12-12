@@ -1,7 +1,14 @@
 
 # Microsoft 365 URL List
 
+This page is similar to the Office 365 URLs list, but includes additional details around Intune, Teams Room Premium as well as URLs for specific vendor-related Teams MTRs, Phones, and other devices.
+
 ## Microsoft Teams (& Skype for Business)
+The following list contains IPs and URLs that Teams and Skype for Business use.
+
+Note that <b> ER </b> Stands for Express Route.
+
+Any category marked as Required must be allowed through your corporate firewall/proxy for the service to function correctly.
 
 | ID    | Category         | ER | Addresses                                                    | Ports                       |
 |:------|------------------| -- | -------------------------------------------------------------| --------------------------- |
@@ -20,6 +27,11 @@
 |    180| Default Requried | No | compass-ssl.microsoft.com | TCP:443|
 
 ## Microsoft 365 Common
+The following list contains IPs and URLs that are common to all Office 365 services, including Teams and Skype for Business.
+
+Note that <b> ER </b> Stands for Express Route.
+
+Any category marked as Required must be allowed through your corporate firewall/proxy for the service to function correctly.
 
 | ID    | Category         | ER | Addresses                                                    | Ports                       |
 |:------|------------------| -- | -------------------------------------------------------------| --------------------------- |
@@ -79,17 +91,12 @@
 | 159 | Default Required | No | admin.microsoft.com | TCP: 443, 80 |
 | 160 | Default Required | No | cdn.odc.officeapps.live.com<br> cdn.uci.officeapps.live.com | TCP: 443, 80 |
 
-
-
-
-
-
-
-
-
-
-
 ## Microsoft Intune
+The following list contains IPs and URLs that allow Teams devices to communicate with the Intune service.
+
+Note that <b> ER </b> Stands for Express Route.
+
+Any category marked as Required must be allowed through your corporate firewall/proxy for the service to function correctly.
 
 | Domain(s)    | IP Address(es)  |
 |:------|------------------|
@@ -97,6 +104,11 @@
 | *.manage.microsoft.com<br>  manage.microsoft.com<br> | 20.43.129.0/24<br> 20.44.19.224/27<br> 20.49.93.160/27<br> 40.119.8.128/25<br> 40.67.121.224/27<br> 40.70.151.32/28<br> 40.71.14.96/28<br> 40.74.25.0/24<br> 40.78.245.240/28<br> 40.78.247.128/27<br> 40.79.197.64/27<br> 40.79.197.96/28<br> 40.80.180.208/28<br> 40.80.180.224/27<br> 40.80.184.128/25<br> 40.82.248.224/28<br> 40.82.249.128/25<br> 52.150.137.0/25<br> 52.162.111.96/28<br> 52.168.116.128/27<br> 52.182.141.192/27<br> 52.236.189.96/27<br> 52.240.244.160/27<br> 104.214.164.192/27<br> 104.46.162.96/27<br> 13.67.13.176/28<br> 13.67.15.128/27<br> 13.69.231.128/28<br> 13.69.67.224/28<br> 13.70.78.128/28<br> 13.70.79.128/27<br> 13.71.199.64/28<br> 13.73.244.48/28<br> 13.74.111.192/27<br> 13.75.39.208/28<br> 13.77.53.176/28<br> 13.86.221.176/28<br> 13.89.174.240/28<br> 13.89.175.192/28<br> 20.189.105.0/24<br> 20.189.172.160/27<br> 20.189.229.0/25<br> 20.191.167.0/25<br> 20.37.153.0/24<br> 20.37.192.128/25<br> 20.38.81.0/24<br> 20.41.1.0/24<br> 20.42.1.0/24<br> 20.42.130.0/24<br> 20.42.224.128/25|
 
 ## Teams Room Premium
+The following list contains IPs and URLs that the Teams Room Premium service uses to communicate with your Teams room devices.
+
+Note that <b> ER </b> Stands for Express Route.
+
+Any category marked as Required must be allowed through your corporate firewall/proxy for the service to function correctly.
 
 | URL    |
 |:------|
@@ -104,7 +116,14 @@
 
 # Vendor Specific URLs
 
+Vendor specific URLs are additional to the above, and are required to support that vendors specific hardware (Teams Handsets and MTRs).
+
+It is recommended that you open these URLs up on your firewall/proxy.
+
+Note: Teams Phones and android-based room systems do not support proxy servers. The advice is to configure these devices on a separate VLAN that can access the required URLs without passing through a proxy.
+
 ## Poly
+These URLs are for Poly devices (MTRs and desk phones).
 
 | URL    |
 |:------|
@@ -112,6 +131,7 @@
 
 
 ## Logitech
+These URLs are for Logitech devices.
 
 | URL    |
 | :------|
