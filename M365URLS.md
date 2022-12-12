@@ -1,3 +1,4 @@
+\*
 # Microsoft 365 URL List
 
 ## Microsoft Teams (& Skype for Business)
@@ -115,3 +116,4 @@
 | URL    |
 | :------|
 | sync.logitech.com, updates.vc.logitech.com, raiden.vc.logitech.com, svcs.vc.logitech.com|
+\*
