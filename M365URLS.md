@@ -131,9 +131,8 @@ These URLs are for Poly devices (MTRs and desk phones).
 
 
 ## Logitech
-These URLs are for Logitech devices.
+These URLs are for Logitech devices. 
 
 | URL    |
 | :------|
-| sync.logitech.com<br> updates.vc.logitech.com<br> raiden.vc.logitech.com<br> svcs.vc.logitech.com|
-
+| sync.logitech.com<br> updates.vc.logitech.com<br> raiden.vc.logitech.com<br> svcs.vc.logitech.com<br> ping.vc.logitech.com|
