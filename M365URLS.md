@@ -21,19 +21,19 @@
 ## Microsoft 365 Common
 
 | ID    | Category         | ER | Addresses                                                    | Ports                       |
-|------:|------------------| -- | -------------------------------------------------------------| --------------------------- |
+|:------|------------------| -- | -------------------------------------------------------------| --------------------------- |
 
 ## Microsoft Intune
 
 | Domain(s)    | IP Address(es)  |
-|------:|------------------|
+|:------|------------------|
 | login.microsoftonline.com, *.officeconfig.msocdn.com, config.office.com, graph.windows.net, enterpriseregistration.windows.net, | |
 | *.manage.microsoft.com,  manage.microsoft.com, | 20.43.129.0/24, 20.44.19.224/27, 20.49.93.160/27, 40.119.8.128/25, 40.67.121.224/27, 40.70.151.32/28, 40.71.14.96/28, 40.74.25.0/24, 40.78.245.240/28, 40.78.247.128/27, 40.79.197.64/27, 40.79.197.96/28, 40.80.180.208/28, 40.80.180.224/27, 40.80.184.128/25, 40.82.248.224/28, 40.82.249.128/25, 52.150.137.0/25, 52.162.111.96/28, 52.168.116.128/27, 52.182.141.192/27, 52.236.189.96/27, 52.240.244.160/27, 104.214.164.192/27, 104.46.162.96/27, 13.67.13.176/28, 13.67.15.128/27, 13.69.231.128/28, 13.69.67.224/28, 13.70.78.128/28, 13.70.79.128/27, 13.71.199.64/28, 13.73.244.48/28, 13.74.111.192/27, 13.75.39.208/28, 13.77.53.176/28, 13.86.221.176/28, 13.89.174.240/28, 13.89.175.192/28, 20.189.105.0/24, 20.189.172.160/27, 20.189.229.0/25, 20.191.167.0/25, 20.37.153.0/24, 20.37.192.128/25, 20.38.81.0/24, 20.41.1.0/24, 20.42.1.0/24, 20.42.130.0/24, 20.42.224.128/25|
 
 ## Teams Room Premium
 
 | URL    |
-|------:|
+|:------|
 | agent.rooms.microsoft.com, global.azure-devices-provisioning.net, gj3ftstorage.blob.core.windows.net, mmrstgnoamiot.azure-devices.net, mmrstgnoamstor.blob.core.windows.net, mmrprodapaciot.azure-devices.net, mmrprodapacstor.blob.core.windows.net, mmrprodemeaiot.azure-devices.net, mmrprodemeastor.blob.core.windows.net, mmrprodnoamiot.azure-devices.net, mmrprodnoamstor.blob.core.windows.net |
 
 # Vendor Specific URLs
@@ -41,12 +41,12 @@
 ## Poly
 
 | URL    |
-|------:|
+|:------|
 | ntp.polycom.com, api.silica-prod01.io.lens.poly.com, zto.poly.com, firebaseremoteconfig.googleapis.com, connectivitycheck.android.com, firebaseinstallations.googleapis.com, 0.pool.ntp.org, in.appcenter.ms|
 
 
 ## Logitech
 
 | URL    |
-| ------:|
+| :------|
 | sync.logitech.com, updates.vc.logitech.com, raiden.vc.logitech.com, svcs.vc.logitech.com|
