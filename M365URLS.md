@@ -2,6 +2,7 @@
 
 ## Microsoft Teams (& Skype for Business)
 
-| ID    | Category         | ER | Addresses                                                     | Ports
+| ID    | Category         | ER | Addresses                                                    | Ports                       |
+|------:|------------------| -- | -------------------------------------------------------------| --------------------------- |
 |     11| Optimize Required| Yes| 13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 2603:1063::/38| UDP: 3478, 3479, 3480, 3481
 
