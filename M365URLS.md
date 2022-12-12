@@ -54,7 +54,7 @@
 | 89 | Default Required | No | go.microsoft.com | TCP: 443, 80
 | 91 | Default Required | No | ajax.aspnetcdn.com, cdn.odc.officeapps.live.com | TCP: 443: 80 |
 | 92 | Default Required | No | officecdn.microsoft.com, officecdn.microsoft.com.edgesuite.net | TCP: 443, 80 |
-| 93 | Default Optional. Notes: ProPlus: auxiliary URLs | No | *.virtualearth.net, c.bing.net, excelbingmap.firstpartyapps.oaspapps.com, ocos-office365-s2s.msedge.net, peoplegraph.firstpartyapps.oaspapps.com, tse1.mm.bing.net, wikipedia.firstpartyapps.oaspapps.com, www.bing.com | TCP: 443, 80 |
+| 93 | Default Optional. Notes: ProPlus: auxiliary URLs | No | *.virtualearth.net, c.bing.net, excelbingmap.firstpartyapps.oaspapps.com, ocos-office365-s2s.msedge.net, peoplegraph.firstpartyapps.oaspapps.com, tse1.mm.bing.net, wikipedia.firstpartyapps.oaspapps.com, `www.bing.com | TCP: 443, 80 |
 | 95 | Default Optional. Notes: Outlook for Android and iOS | No | *.acompli.net, *.outlookmobile.com | TCP: 443 |
 | 96 | Default Optional. Notes: Outlook for Android and iOS: Authentication | No | login.windows-ppe.net | TCP: 443 |
 | 97 | Default Optional. Notes: Outlook for Android and iOS: Consumer Outlook.com and OneDrive integration | No | account.live.com, login.live.com | TCP: 443 |
