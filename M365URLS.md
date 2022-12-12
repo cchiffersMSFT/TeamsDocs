@@ -23,6 +23,18 @@
 | ID    | Category         | ER | Addresses                                                    | Ports                       |
 |:------|------------------| -- | -------------------------------------------------------------| --------------------------- |
 | 41 | Default Optional. Notes: Microsoft Stream | No | *.microsoftstream.com | TCP: 443|
+| 43 | Default Optional. Notes: Microsoft Stream 3rd party integration (including CDNs) | No | nps.onyx.azure.net | TCP: 443 |
+| 44 | Default Optional. Notes: Microsoft Stream - unauthenticated | No | *.azureedge.net, *.media.azure.net, *.streaming.mediaservices.windows.net | TCP: 443|
+| 45 | Default Optional. Notes: Microsoft Stream | No | *.keydelivery.mediaservices.windows.net | TCP: 443 |
+| 46 | Allow Required | Yes | *.officeapps.live.com, *.online.office.com, office.live.com, 13.107.6.171/32, 13.107.18.15/32, 13.107.140.6/32, 52.108.0.0/14, 52.238.106.116/32, 52.244.37.168/32, 52.244.203.72/32, 52.244.207.172/32, 52.244.223.198/32, 52.247.150.191/32, 2603:1010:2::cb/128, 2603:1010:200::c7/128, 2603:1020:200::682f:a0fd/128, 2603:1020:201:9::c6/128, 2603:1020:600::a1/128, 2603:1020:700::a2/128, 2603:1020:800:2::6/128, 2603:1020:900::8/128, 2603:1030:7::749/128, 2603:1030:800:5::bfee:ad3c/128, 2603:1030:f00::17/128, 2603:1030:1000::21a/128, 2603:1040:200::4f3/128, 2603:1040:401::762/128, 2603:1040:601::60f/128, 2603:1040:a01::1e/128, 2603:1040:c01::28/128, 2603:1040:e00:1::2f/128, 2603:1040:f00::1f/128, 2603:1050:1::cd/128, 2620:1ec:c::15/128, 2620:1ec:8fc::6/128, 2620:1ec:a92::171/128, 2a01:111:f100:2000::a83e:3019/128, 2a01:111:f100:2002::8975:2d79/128, 2a01:111:f100:2002::8975:2da8/128, 2a01:111:f100:7000::6fdd:6cd5/128, 2a01:111:f100:a004::bfeb:88cf/128 | TCP: 443, 80|
+| 47 | Default Required | No | *.office.net | TCP:443, 80 |
+| 49 | Default Required | No | *.onenote.com | TCP: 443 |
+| 50 | Default Optional. Notes: OneNote notebooks (wildcards) | No | *.microsoft.com | TCP: 443 | 
+| 51 | Default Required | No | *cdn.onenote.net | TCP: 443 |
+| 53 | Default Required | No | ajax.aspnetcdn.com, apis.live.net, officeapps.live.com, www.onedrive.com | TCP: 443 |
+| 56 | Allow Required | Yes | *.auth.microsoft.com, *.msftidentity.com, *.msidentity.com, account.activedirectory.windowsazure.com, accounts.accesscontrol.windows.net, adminwebservice.microsoftonline.com, api.passwordreset.microsoftonline.com, autologon.microsoftazuread-sso.com, becws.microsoftonline.com, ccs.login.microsoftonline.com, clientconfig.microsoftonline-p.net, companymanager.microsoftonline.com, device.login.microsoftonline.com, graph.microsoft.com, graph.windows.net, login.microsoft.com, login.microsoftonline.com, login.microsoftonline-p.com, login.windows.net, logincert.microsoftonline.com, loginex.microsoftonline.com, login-us.microsoftonline.com, nexus.microsoftonline-p.com, passwordreset.microsoftonline.com, provisioningapi.microsoftonline.com, 20.190.128.0/18, 40.126.0.0/18, 2603:1006:2000::/48, 2603:1007:200::/48, 2603:1016:1400::/48, 2603:1017::/48, 2603:1026:3000::/48, 2603:1027:1::/48, 2603:1036:3000::/48, 2603:1037:1::/48, 2603:1046:2000::/48, 2603:1047:1::/48, 2603:1056:2000::/48, 2603:1057:2::/48 | TCP: 443, 80 |
+| 59 | Default Required | No | *.hip.live.com, *.microsoftonline.com, *.microsoftonline-p.com, *.msauth.net, *.msauthimages.net, *.msecnd.net, *.msftauth.net, *.msftauthimages.net, *.phonefactor.net, enterpriseregistration.windows.net, management.azure.com, policykeyservice.dc.ad.msft.net | TCP: 443, 80 |
+
 
 ## Microsoft Intune
 
