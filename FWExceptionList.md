@@ -58,7 +58,9 @@ Here's a list of URLs the device accesses from the moment it is connected to PoE
 |     A |	auc.pptservicescast.officeapps.live.com |
 
 
-Poly MTR:
+## Poly MTR:
+
+Here's a similar list for Windows-based MTR's
 
 A	pipe.skype.com
 A	devicemgmt.teams.microsoft.com
