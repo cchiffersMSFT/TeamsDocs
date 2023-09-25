@@ -12,7 +12,7 @@ Here's a list of URLs the device accesses from the moment it is connected to PoE
 
 
 | Record    | URL         |
-|:------|-------------|
+|:------|-------------| 
 |     A |	0.pool.ntp.org |
 |     SRV |	_ntp._udp.time.windows.com |
 |     A |	a.manage.microsoft.com |
@@ -58,10 +58,10 @@ Here's a list of URLs the device accesses from the moment it is connected to PoE
 |     A |	auc.pptservicescast.officeapps.live.com |
 
 
-## Poly MTR:
+Poly MTR:
 
-Here's a similar list for Windows-based MTR's
-
+| Record    | URL         |
+|:------|-------------| 
 |     A | pipe.skype.com
 |     A | devicemgmt.teams.microsoft.com
 |     A | teams.events.data.microsoft.com
