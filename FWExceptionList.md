@@ -14,49 +14,49 @@ Here's a list of URLs the device accesses from the moment it is connected to PoE
 | Record    | URL         |
 |:------|-------------| 
 
-|     A|	0.pool.ntp.org |
-|     SRV|	_ntp._udp.time.windows.com |
-|     A|	a.manage.microsoft.com |
-|     A|	aadcdn.msauth.net |
-|     A|	aadcdn.msftauth.net |
-|     A|	android.clients.google.com |
-|     A|	api.flightproxy.teams.microsoft.com |
-|     A|	api.microsoftstream.com |
-|     A|	api3.cc.skype.com |
-|     A|	au.ng.msg.teams.microsoft.com |
-|     A|	auea-1.api.microsoftstream.com |
-|     A|	authsvc.teams.microsoft.com |
-|     A|	authsvc.teams.microsoft.com |
-|     A|	config.teams.microsoft.com |
-|     A|	connectivitycheck.android.com |
-|     A|	devicemgmt-cdn.teams.microsoft.com |
-|     A|	devicemgmt.teams.microsoft.com |
-|     A|	enterpriseregistration.windows.net |
-|     A|	fef.msud01.manage.microsoft.com |
-|     A|	firebaseinstallations.googleapis.com |
-|     A|	firebaseremoteconfig.googleapis.com |
-|     A|	go.microsoft.com | 
-|     A|	go.trouter.teams.microsoft.com |
-|     A|	graph.microsoft.com |
-|     A|	graph.windows.net |
-|     A|	ic3.events.data.microsoft.com |
-|     A|	in.appcenter.ms |
-|     AAAA|	ipv4only.arpa |
-|     A|	japanwest-prod.notifications.teams.microsoft.com |
-|     A|	login.live.com |
-|     A|	login.microsoftonline.com |
-|     A|	mamservice.manage.microsoft.com |
-|     A|	mobile.pipe.aria.microsoft.com |
-|     A|	mtalk.google.com |
-|     A|	odc.officeapps.live.com |
-|     A|	outlook.office.com |
-|     A|	presence.teams.microsoft.com |
-|     A|	teams.microsoft.com |
-|     A|	time.windows.com |
-|     A|	whiteboard.microsoft.com |
-|     A|	worldaz.relay.teams.microsoft.com |
-|     AAAA|	trouter2-azsc-auea-0-a.trouter.teams.microsoft.com |
-|     A|	auc.pptservicescast.officeapps.live.com |
+|     A |	0.pool.ntp.org |
+|     SRV |	_ntp._udp.time.windows.com |
+|     A |	a.manage.microsoft.com |
+|     A |	aadcdn.msauth.net |
+|     A |	aadcdn.msftauth.net |
+|     A |	android.clients.google.com |
+|     A |	api.flightproxy.teams.microsoft.com |
+|     A |	api.microsoftstream.com |
+|     A |	api3.cc.skype.com |
+|     A |	au.ng.msg.teams.microsoft.com |
+|     A |	auea-1.api.microsoftstream.com |
+|     A |	authsvc.teams.microsoft.com |
+|     A |	authsvc.teams.microsoft.com |
+|     A |	config.teams.microsoft.com |
+|     A |	connectivitycheck.android.com |
+|     A |	devicemgmt-cdn.teams.microsoft.com |
+|     A |	devicemgmt.teams.microsoft.com |
+|     A |	enterpriseregistration.windows.net |
+|     A |	fef.msud01.manage.microsoft.com |
+|     A |	firebaseinstallations.googleapis.com |
+|     A |	firebaseremoteconfig.googleapis.com |
+|     A |	go.microsoft.com | 
+|     A |	go.trouter.teams.microsoft.com |
+|     A |	graph.microsoft.com |
+|     A |	graph.windows.net |
+|     A |	ic3.events.data.microsoft.com |
+|     A |	in.appcenter.ms |
+|     AAAA |	ipv4only.arpa |
+|     A |	japanwest-prod.notifications.teams.microsoft.com |
+|     A |	login.live.com |
+|     A |	login.microsoftonline.com |
+|     A |	mamservice.manage.microsoft.com |
+|     A |	mobile.pipe.aria.microsoft.com |
+|     A |	mtalk.google.com |
+|     A |	odc.officeapps.live.com |
+|     A |	outlook.office.com |
+|     A |	presence.teams.microsoft.com |
+|     A |	teams.microsoft.com |
+|     A |	time.windows.com |
+|     A |	whiteboard.microsoft.com |
+|     A |	worldaz.relay.teams.microsoft.com |
+|     AAAA |	trouter2-azsc-auea-0-a.trouter.teams.microsoft.com |
+|     A |	auc.pptservicescast.officeapps.live.com |
 
 
 Poly MTR:
