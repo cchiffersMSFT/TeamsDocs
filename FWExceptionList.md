@@ -13,7 +13,7 @@ Here's a list of URLs the device accesses from the moment it is connected to PoE
 
 | Record   | Express Route | URL         |
 |:------|------------|-------------| 
-|     A |	| No | 0.pool.ntp.org |
+|     A | No | 0.pool.ntp.org |
 |     SRV | No | _ntp._udp.time.windows.com |
 |     A | No |a.manage.microsoft.com |
 |     A |	No | aadcdn.msauth.net |
@@ -40,7 +40,7 @@ Here's a list of URLs the device accesses from the moment it is connected to PoE
 |     A |	Yes | graph.windows.net |
 |     A |	No | ic3.events.data.microsoft.com |
 |     A |	No | in.appcenter.ms |
-|     AAAA |	ipv4only.arpa |
+|     AAAA |	| ipv4only.arpa |
 |     A | Yes| japanwest-prod.notifications.teams.microsoft.com |
 |     A |	No | login.live.com |
 |     A |	Yes | login.microsoftonline.com |
