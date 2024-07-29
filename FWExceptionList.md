@@ -1,8 +1,8 @@
 # Microsoft 365 URL Firewall List
 
-Here’s a handy list of URLs Windows-based MTRs access.
+Here’s a handy list of URLs Teams devices access.
 
-This list was captured using a Pi-hole, from the moment the MTR was turned on, registering with Intune and Azure AD, and signing in to Teams. Making calls and joining a meeting are also included. My test device is also registered with the Teams Meeting Room Premium service.
+This list was captured using a Pi-hole, from the moment the device was turned on, registering with Intune and Azure AD, and signing in to Teams. Making calls and joining a meeting are also included. My test device is also registered with the Teams Meeting Room Premium service.
 
 Note: The list only includes URLs and does not include IP addresses that are listed here: aka.ms/m365urls
 
