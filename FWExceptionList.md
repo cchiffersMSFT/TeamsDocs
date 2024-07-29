@@ -6,6 +6,8 @@ This list was captured using a Pi-hole, from the moment the MTR was turned on, r
 
 Note: The list only includes URLs and does not include IP addresses that are listed here: aka.ms/m365urls
 
+Note: Although Express Route is supported, its strongly recommended that it is not used for Teams traffic. Express Route does not add any levels of protection to traffic, and is not an encrypted tunnel. As you can see below, Teams devices still need Internet access for some URLs including those used for Intune.
+
 ## Poly Phones:
 
 Here's a list of URLs the device accesses from the moment it is connected to PoE, through sign in and making a call
