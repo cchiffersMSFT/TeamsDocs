@@ -12,7 +12,7 @@ Here's a list of URLs the device accesses from the moment it is connected to PoE
 
 
 | Record   | Express Route | URL         |
-|:------|-------------| 
+|:------|------------|-------------| 
 |     A |	| No | 0.pool.ntp.org |
 |     SRV | No | _ntp._udp.time.windows.com |
 |     A | No |a.manage.microsoft.com |
